@@ -1,0 +1,168 @@
+.navbar{
+    background-color: #0c953b;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border:none;
+}
+
+.cbp-af-header-shrink{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.7;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: white;
+}
+
+.nav-links{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar .nav > li > a {
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border:none !important;  // adjust as you want (border-top or other)
+}
+.navbar-form {
+    box-shadow: none !important;
+}
+/*.icon-bar {*/
+    /*display: block;*/
+    /*width: 22px;*/
+    /*height: 2px;*/
+    /*background-color: #ffffff;*/
+    /*border-radius: 0;*/
+/*}*/
+
+.navbar-toggle{
+    background-color: #cccccc;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.navbar-default .navbar-toggle{
+    border-color: #000000;
+}
+
+.navbar-default .navbar-toggle{
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    /*background-color: #FFFF00;*/
+    color: #000000;
+}
+
+@media (max-width: 440px){
+    .navbar{
+        background-color: blue;
+    }
+    .navbar-header{
+        position:relative;
+    }
+    .navbar img{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 80%;
+    }
+}
+
+.middle-text{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fill-screen{
+    background-size: cover;
+    background-position: center;
+}
+
+.title-row{
+    position: relative;
+    min-height: 300px;
+}
+
+.title-image{
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+
+.down-button{
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.down-button i{
+    color: white;
+}
+
+.fixed-attachment{
+    background-attachment: fixed
+}
+
+@media (max-width: 1024px){
+    .fixed-attachment{
+        background-attachment: scroll;
+    }
+}
+
+.text-banner{
+    text-align:center;
+    margin: 40px 20px;
+}
+
+.text-banner h1{
+    font-size: 44px;
+}
+
+.text-banner p{
+    font-size: 18px;
+}
+
+.activity-section{
+    margin: 50px;
+}
+
+.activity-element{
+    text-align: center;
+}
+
+.activity-element img{
+    width: 150px;
+    height: 150px;
+}
+
+#carousel{
+    margin: 40px 0px;
+}
+
+#carousel img{
+    width: 100%;
+    height: auto;
+}
+
+.contact-us{
+    margin: 50px;
+    text-align: center;
+}
+
+footer{
+    background-color: #333;
+    color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
