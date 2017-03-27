@@ -327,13 +327,13 @@ Footer END
 
 @media (max-width: 767px) {
     #womens-cover{
-        background-image: url(../images/banner-background-wallpaper-images/womens-scaled.png);
+        background-image: url(../images/banner-background-wallpaper-images/womens-scaled2.png);
     }
     #mens-cover{
-        background-image: url(../images/banner-background-wallpaper-images/mens-scaled.png);
+        background-image: url(../images/banner-background-wallpaper-images/mens-scaled2.png);
     }
     #about-cover{
-        background-image: url(../images/banner-background-wallpaper-images/about-scaled.png);
+        background-image: url(../images/banner-background-wallpaper-images/about-scaled2.png);
     }
 }
 
