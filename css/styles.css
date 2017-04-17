@@ -337,3 +337,17 @@ Footer END
     }
 }
 
+#address-info{
+    display: inline-block;
+}
+#address-info-sized{
+    display: none;
+}
+@media (max-width: 582px) {
+    #address-info{
+        display: none;
+    }
+    #address-info-sized{
+        display: inline-block;
+    }
+}
